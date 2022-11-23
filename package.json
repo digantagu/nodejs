@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  "publishConfig": {
+    "registry": "http://192.168.10.215:8081/repository/nodetest/"
+    }    
   },
   "dependencies": {
     "express": "^4.13.3"
