@@ -2,9 +2,7 @@ FROM node
 
 WORKDIR /app
 
-ADD . /app
-
-USER node
+COPY . .
 
 RUN npm install
 
