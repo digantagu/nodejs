@@ -4,7 +4,7 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "publishConfig": {
-    "registry": "http://192.168.10.215:8081/repository/nodejsdocker/"  
+    "registry": "http://192.168.10.215:8081/repository/nodetest/"  
   }, 
   "scripts": {
     "start": "node index.js"     
