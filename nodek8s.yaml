@@ -27,5 +27,6 @@ spec:
       containers:
         - name: nodejs
           image: digantagu/nodetest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
