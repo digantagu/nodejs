@@ -26,6 +26,6 @@ spec:
     spec:
       containers:
         - name: nodejs
-          image: digantagu/nodejs
+          image: digantagu/nodetest
           ports:
             - containerPort: 5000
