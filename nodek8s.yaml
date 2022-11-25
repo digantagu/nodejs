@@ -15,7 +15,7 @@ kind: Deployment
 metadata:
   name: nodejs
 spec:
-  replicas: 20
+  replicas: 4
   selector:
     matchLabels:
       app: nodejs
