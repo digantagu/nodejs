@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+  response.send('GUWAHATI IS A CAPITAL OF ASSAM')
 })
 
 app.listen(app.get('port'), function() {
